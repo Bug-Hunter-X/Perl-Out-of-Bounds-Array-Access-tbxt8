@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $size = @array; # Get the size of the array for (my $i = 0; $i < $size; $i++) { my $element = $array[$i]; print "Element $i: $element\n"; } # Or use a safer method like this: my $element = $array[2] if @array >= 3; # Accessing element only if the array has at least 3 elements
